@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>
+    HX TRAVEL AGENCY
+</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+.header h1 {
+  font-size: 40px;
+}
+.navbar {
+  overflow: hidden; /* Hide overflow */
+  background-color: #333; /* Dark background color */
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block, for responsive reasons (see below) */
+  color: white; /* White text color */
+  text-align: center; /* Center the text */
+  padding: 14px 20px; /* Add some padding */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+  background-color: #ddd; /* Grey background color */
+  color: black; /* Black text color */
+}
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+/* Main column */
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+<div class="header">
+<h1>HX TRAVEL AGENCY</h1>
+<p>
+    FIND THE TRIP THAT SUIT YOU!
+</p>
+</div>
+<div class="navbar">
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+  </div>
+  <div class="row">
+    <div class="side">
+      <h2>JAPAN</h2>
+      <h4> TOKYO</h4>
+      <p>Tokyo is the administrative, cultural, financial, commercial, and educational centre of 
+        Japan and the focus of an extensive urban complex that includes Kawasaki and Yokohama. 
+        Attractions include the Imperial Palace, encircled by stone-walled moats and broad gardens, 
+        and numerous temples and shrines.</p>
+      <h3>TRIP ITINERARY</h3>
+      <h4>Day 1 (25/03/2024): Kuala Lumpur - Tokyo</h4>
+      <p> 0800 - 1540 : Flight (KUL to NRT) </p>
+      <p> 1540 - 1900 : Check In </p>
+      <p> 1900        : Dinner </p>
+      
+      <h4>Day 10 (03/04/2024): Tokyo - Kuala Lumpur</h4>
+      <p> 1730 - 2355 : Flight (NRT to KUL) </p>
+    </div>
+  </div>
+</body>
+</html>
